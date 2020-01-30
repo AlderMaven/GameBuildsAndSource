@@ -1,0 +1,2782 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-11-29T16:49:55.104-06:00
+  initializedAtString: 2019-11-29T16:49:55.104-06:00
+  log:
+  - commitID: 0c942a81a17755e7f13693918211a4b76d35672b
+    mergeA: 
+    mergeB: 
+    authorName: Navin-Augustine
+    authorEmail: navin.augustine199@gmail.com
+    commitEmail: navin.augustine199@gmail.com
+    commitName: Navin-Augustine
+    summary: Combat Extended
+    description: I have implemented basic combat logic. When character loses all HP
+      moves to a Dead state where it can't do anything. Has a debug message when all
+      of 1 team has died. Movement somehow broke working on fixing it. Also if debug
+      messages stop showing up clear current ones.
+    timeString: 2019-11-28T02:35:10.000-06:00
+    commitTimeString: 2019-11-28T02:35:10.000-06:00
+    changes:
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterStats.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Attack.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Attack.cs
+      projectPath: Assets\Scripts\Combat\Attack.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Dead.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Dead.cs
+      projectPath: Assets\Scripts\Combat\Dead.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Dead.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Dead.cs.meta
+      projectPath: Assets\Scripts\Combat\Dead.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Idle.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Idle.cs
+      projectPath: Assets\Scripts\Combat\Idle.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Strike.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Strike.cs
+      projectPath: Assets\Scripts\Combat\Strike.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Turns.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Turns.cs
+      projectPath: Assets\Scripts\Combat\Turns.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8bd1c16c661d4708bb78f03362e4f5f9d453d117
+    mergeA: 
+    mergeB: 
+    authorName: Navin-Augustine
+    authorEmail: navin.augustine199@gmail.com
+    commitEmail: navin.augustine199@gmail.com
+    commitName: Navin-Augustine
+    summary: Player Stats
+    description: Optimized Player stats so new characters can be made, and shortened
+      turns script
+    timeString: 2019-11-27T17:24:39.000-06:00
+    commitTimeString: 2019-11-27T17:24:39.000-06:00
+    changes:
+    - path: Assets\Scripts\Character Stats\CharacterStats.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterStats.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Idle.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Idle.cs
+      projectPath: Assets\Scripts\Combat\Idle.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Moving.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Moving.cs
+      projectPath: Assets\Scripts\Combat\Moving.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Strike.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Strike.cs
+      projectPath: Assets\Scripts\Combat\Strike.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Turns.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Turns.cs
+      projectPath: Assets\Scripts\Combat\Turns.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\Character_UI.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\Character_UI.cs
+      projectPath: Assets\Scripts\GUI\Character_UI.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs
+      projectPath: Assets\Scripts\TacticsMove.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs.meta
+      projectPath: Assets\Scripts\TacticsMove.cs.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b06fbef9f32fa543a3a7a76c0bf5b5f8b1ef7397
+    mergeA: 
+    mergeB: 
+    authorName: JacobCorey
+    authorEmail: jacobcorey584@gmail.com
+    commitEmail: jacobcorey584@gmail.com
+    commitName: JacobCorey
+    summary: Player and NPC moves and Turn order
+    description: 
+    timeString: 2019-11-27T16:58:12.000-06:00
+    commitTimeString: 2019-11-27T16:58:12.000-06:00
+    changes:
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\JobAttClass.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\JobAttClass.cs
+      projectPath: Assets\Scripts\JobAttClass\JobAttClass.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\LvlUp.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\LvlUp.cs
+      projectPath: Assets\Scripts\LvlUp.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Tile.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Tile.cs
+      projectPath: Assets\Scripts\Tile.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2182c9a6df092a1d9bae818a4c9b3252b4501f49
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: stuff done
+    description: 
+    timeString: 2019-11-20T20:23:19.000-06:00
+    commitTimeString: 2019-11-20T20:23:19.000-06:00
+    changes:
+    - path: Assets\Scripts\Character Stats\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterTemplate.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\JobAttClass.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\JobAttClass.cs
+      projectPath: Assets\Scripts\JobAttClass\JobAttClass.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Monk.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Monk.cs
+      projectPath: Assets\Scripts\JobAttClass\Monk.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\LvlUp.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\LvlUp.cs
+      projectPath: Assets\Scripts\LvlUp.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 7085bb5ccf1b0297c6c45535b73ea771e2b560e4
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Adjusted character UI to match CharacterStats
+    description: 
+    timeString: 2019-11-19T18:31:58.000-06:00
+    commitTimeString: 2019-11-19T18:31:58.000-06:00
+    changes:
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\Character_UI.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\Character_UI.cs
+      projectPath: Assets\Scripts\GUI\Character_UI.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\NPCMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\NPCMove.cs.meta
+      projectPath: Assets\Scripts\NPCMove.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\PlayerMove.cs.meta
+      projectPath: Assets\Scripts\PlayerMove.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs.meta
+      projectPath: Assets\Scripts\TacticsMove.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Tile.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Tile.cs.meta
+      projectPath: Assets\Scripts\Tile.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurnManager.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TurnManager.cs.meta
+      projectPath: Assets\Scripts\TurnManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: e7e81dca0e3d67e0576fd04b124f86fd823fb031
+    mergeA: 
+    mergeB: 
+    authorName: JacobCorey
+    authorEmail: jacobcorey584@gmail.com
+    commitEmail: jacobcorey584@gmail.com
+    commitName: JacobCorey
+    summary: AI and turn manager
+    description: Added AI for npcs and a turn manager, still need to work on stuff
+      for AI pathfinding and how to determine turn order
+    timeString: 2019-11-13T18:26:12.000-06:00
+    commitTimeString: 2019-11-13T18:26:12.000-06:00
+    changes:
+    - path: Assets\Prefabs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Cube.prefab
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Prefabs\Cube.prefab
+      projectPath: Assets\Prefabs\Cube.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Cube.prefab.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Prefabs\Cube.prefab.meta
+      projectPath: Assets\Prefabs\Cube.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map Plan.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map
+        Plan.unity
+      projectPath: Assets\Scenes\Map Plan.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map Plan.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map
+        Plan.unity.meta
+      projectPath: Assets\Scenes\Map Plan.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\NPCMove.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\NPCMove.cs
+      projectPath: Assets\Scripts\NPCMove.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMove.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\PlayerMove.cs
+      projectPath: Assets\Scripts\PlayerMove.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\PlayerMove.cs.meta
+      projectPath: Assets\Scripts\PlayerMove.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs
+      projectPath: Assets\Scripts\TacticsMove.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs.meta
+      projectPath: Assets\Scripts\TacticsMove.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\Tile.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Tile.cs
+      projectPath: Assets\Scripts\Tile.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Tile.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Tile.cs.meta
+      projectPath: Assets\Scripts\Tile.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\TurnManager.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TurnManager.cs
+      projectPath: Assets\Scripts\TurnManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: feb0b298a5f17d790ce2f87552ca4450beea45ee
+    mergeA: 2a6505da468d2433f343c2911d58f72c00fc5954
+    mergeB: b74fbc675c6858dd9588e6b5008389653475322e
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: Merge branch 'master' of https://github.com/utd-game-programming/video-game-project-tacticscom-1
+    description: 
+    timeString: 2019-11-11T17:52:30.000-06:00
+    commitTimeString: 2019-11-11T17:52:30.000-06:00
+    changes: []
+  - commitID: 2a6505da468d2433f343c2911d58f72c00fc5954
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: made base attack clases
+    description: i did the thing, also i have to make the prereq for the attack classes
+    timeString: 2019-11-11T17:50:36.000-06:00
+    commitTimeString: 2019-11-11T17:50:36.000-06:00
+    changes:
+    - path: Assets\Scripts\Character Stats\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterTemplate.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\InventoryDatabase.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\InventoryDatabase.cs
+      projectPath: Assets\Scripts\InventoryDatabase.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Armor.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Armor.cs
+      projectPath: Assets\Scripts\Item\Armor.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Weapon.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Weapon.cs
+      projectPath: Assets\Scripts\Item\Weapon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Archer.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Archer.cs
+      projectPath: Assets\Scripts\JobAttClass\Archer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Archer.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Archer.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Archer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Bard.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Bard.cs
+      projectPath: Assets\Scripts\JobAttClass\Bard.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Bard.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Bard.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Bard.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Fighter.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Fighter.cs
+      projectPath: Assets\Scripts\JobAttClass\Fighter.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Fighter.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Fighter.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Fighter.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Gunner.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Gunner.cs
+      projectPath: Assets\Scripts\JobAttClass\Gunner.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Gunner.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Gunner.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Gunner.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\JobAttClass.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\JobAttClass.cs
+      projectPath: Assets\Scripts\JobAttClass\JobAttClass.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Monk.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Monk.cs
+      projectPath: Assets\Scripts\JobAttClass\Monk.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Priest.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Priest.cs
+      projectPath: Assets\Scripts\JobAttClass\Priest.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Priest.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Priest.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Priest.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Thief.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Thief.cs
+      projectPath: Assets\Scripts\JobAttClass\Thief.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Thief.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Thief.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Thief.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Wizard.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Wizard.cs
+      projectPath: Assets\Scripts\JobAttClass\Wizard.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Wizard.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Wizard.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Wizard.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b74fbc675c6858dd9588e6b5008389653475322e
+    mergeA: 
+    mergeB: 
+    authorName: Navin-Augustine
+    authorEmail: navin.augustine199@gmail.com
+    commitEmail: navin.augustine199@gmail.com
+    commitName: Navin-Augustine
+    summary: Added the Strike Feature
+    description: Simple raycast to detect if a character is detected write debug words.
+      Need to optimize for adding more characters.
+    timeString: 2019-11-06T18:43:16.000-06:00
+    commitTimeString: 2019-11-06T18:43:16.000-06:00
+    changes:
+    - path: Assets\Scripts\Combat\Attack.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Attack.cs
+      projectPath: Assets\Scripts\Combat\Attack.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Attacking.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Attacking.cs
+      projectPath: Assets\Scripts\Combat\Attacking.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Attacking.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Attacking.cs.meta
+      projectPath: Assets\Scripts\Combat\Attacking.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Strike.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Strike.cs
+      projectPath: Assets\Scripts\Combat\Strike.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Strike.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Strike.cs.meta
+      projectPath: Assets\Scripts\Combat\Strike.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Turns.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Turns.cs
+      projectPath: Assets\Scripts\Combat\Turns.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: d6e65a29df630331333216368f70987ffa2de0a5
+    mergeA: 
+    mergeB: 
+    authorName: Navin-Augustine
+    authorEmail: navin.augustine199@gmail.com
+    commitEmail: navin.augustine199@gmail.com
+    commitName: Navin-Augustine
+    summary: Updated Turn
+    description: Changed turns so that player has unlimited time to make their moves.
+    timeString: 2019-11-04T21:24:06.000-06:00
+    commitTimeString: 2019-11-04T21:24:06.000-06:00
+    changes:
+    - path: Assets\Scripts\Combat\Standby.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Standby.cs
+      projectPath: Assets\Scripts\Combat\Standby.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Turns.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Turns.cs
+      projectPath: Assets\Scripts\Combat\Turns.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 40ab0f161a3f5f2e6b9a98759ce2c4d6bbde5c6d
+    mergeA: 
+    mergeB: 
+    authorName: Navin-Augustine
+    authorEmail: navin.augustine199@gmail.com
+    commitEmail: navin.augustine199@gmail.com
+    commitName: Navin-Augustine
+    summary: Made Turns Work
+    description: Fixed the implementation for turns. Now should work properly.
+    timeString: 2019-11-04T18:05:52.000-06:00
+    commitTimeString: 2019-11-04T18:05:52.000-06:00
+    changes:
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterStats.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats2.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats2.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterStats2.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\Dumm1.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\Dumm1.cs
+      projectPath: Assets\Scripts\Character Stats\Dumm1.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\Dumm2.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\Dumm2.cs
+      projectPath: Assets\Scripts\Character Stats\Dumm2.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat.meta
+      projectPath: Assets\Scripts\Combat.meta
+      originalPath: Assets\Scripts\Cutscenes.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Attack.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Attack.cs
+      projectPath: Assets\Scripts\Combat\Attack.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Attack.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Attack.cs.meta
+      projectPath: Assets\Scripts\Combat\Attack.cs.meta
+      originalPath: Assets\Scripts\Character Stats\Dumm1.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Idle.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Idle.cs
+      projectPath: Assets\Scripts\Combat\Idle.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Idle.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Idle.cs.meta
+      projectPath: Assets\Scripts\Combat\Idle.cs.meta
+      originalPath: Assets\Scripts\Character Stats\Dumm2.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Moving.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Moving.cs
+      projectPath: Assets\Scripts\Combat\Moving.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Moving.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Moving.cs.meta
+      projectPath: Assets\Scripts\Combat\Moving.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Standby.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Standby.cs
+      projectPath: Assets\Scripts\Combat\Standby.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Standby.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Standby.cs.meta
+      projectPath: Assets\Scripts\Combat\Standby.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Turns.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Turns.cs
+      projectPath: Assets\Scripts\Combat\Turns.cs
+      originalPath: Assets\Scripts\Turns.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Combat\Turns.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Combat\Turns.cs.meta
+      projectPath: Assets\Scripts\Combat\Turns.cs.meta
+      originalPath: Assets\Scripts\Turns.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+  - commitID: 21eea7b8fb59528b894a93910daff7b04cb73354
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Created a main menu scene
+    description: New Game will take you to Map1, Map2 button will take you to a dummy
+      scene named Map2 for now
+    timeString: 2019-11-04T16:46:55.000-06:00
+    commitTimeString: 2019-11-04T16:46:55.000-06:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\MainMenu.unity.meta
+      projectPath: Assets\Scenes\MainMenu.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map2.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map2.unity
+      projectPath: Assets\Scenes\Map2.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map2.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map2.unity.meta
+      projectPath: Assets\Scenes\Map2.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera.meta
+      projectPath: Assets\Scripts\Camera.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera\CameraRotationAroundPoint.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera\CameraRotationAroundPoint.cs
+      projectPath: Assets\Scripts\Camera\CameraRotationAroundPoint.cs
+      originalPath: Assets\Scripts\GUI\CameraRotationAroundPoint.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera\CameraRotationAroundPoint.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera\CameraRotationAroundPoint.cs.meta
+      projectPath: Assets\Scripts\Camera\CameraRotationAroundPoint.cs.meta
+      originalPath: Assets\Scripts\GUI\CameraRotationAroundPoint.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera\SpriteRotationToCamera.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera\SpriteRotationToCamera.cs
+      projectPath: Assets\Scripts\Camera\SpriteRotationToCamera.cs
+      originalPath: Assets\Scripts\GUI\SpriteRotationToCamera.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera\SpriteRotationToCamera.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera\SpriteRotationToCamera.cs.meta
+      projectPath: Assets\Scripts\Camera\SpriteRotationToCamera.cs.meta
+      originalPath: Assets\Scripts\GUI\SpriteRotationToCamera.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs\DemoCharUI.prefab
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs\DemoCharUI.prefab
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs\DemoCharUI.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs\DemoCharUI.prefab.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs\DemoCharUI.prefab.meta
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs\DemoCharUI.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs\HeightUI.prefab
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs\HeightUI.prefab
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs\HeightUI.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs\HeightUI.prefab.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs\HeightUI.prefab.meta
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs\HeightUI.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\MainMenu.meta
+      projectPath: Assets\Scripts\MainMenu.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu\Map2Select.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\MainMenu\Map2Select.cs
+      projectPath: Assets\Scripts\MainMenu\Map2Select.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu\Map2Select.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\MainMenu\Map2Select.cs.meta
+      projectPath: Assets\Scripts\MainMenu\Map2Select.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu\NewGame.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\MainMenu\NewGame.cs
+      projectPath: Assets\Scripts\MainMenu\NewGame.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MainMenu\NewGame.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\MainMenu\NewGame.cs.meta
+      projectPath: Assets\Scripts\MainMenu\NewGame.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: c6048c1d274560f78b18f4e1e227280a0f31e202
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Adjusted Camera in Map 1 for movement
+    description: It spins around correctly now, plus a new skybox
+    timeString: 2019-11-02T16:23:55.000-05:00
+    commitTimeString: 2019-11-02T16:23:55.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 1fa0457f16392840065025028eac0e26778909d3
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: making the item database
+    description: started on item data base on weapons - daggers done , working on
+      sword
+    timeString: 2019-10-30T17:54:59.000-05:00
+    commitTimeString: 2019-10-30T17:54:59.000-05:00
+    changes:
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\InventoryDatabase.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\InventoryDatabase.cs
+      projectPath: Assets\Scripts\InventoryDatabase.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\InventoryDatabase.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\InventoryDatabase.cs.meta
+      projectPath: Assets\Scripts\InventoryDatabase.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Armor.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Armor.cs
+      projectPath: Assets\Scripts\Item\Armor.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Weapon.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Weapon.cs
+      projectPath: Assets\Scripts\Item\Weapon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\ItemTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\ItemTemplate.cs
+      projectPath: Assets\Scripts\ItemTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fc4032063e2a95f0da89a3cd9311aa2b48a673dc
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Added scripts to allow clicking the character UI on and off
+    description: Interactable holds the Image for the stat block, ClickCharacterRaycast
+      is the script which translates mousePosition to ray on  Fire1 input.  If the
+      resulting raycast hits an object with Interactable, it toggles whether that
+      image is active or not
+    timeString: 2019-10-30T00:15:25.000-05:00
+    commitTimeString: 2019-10-30T00:15:25.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\BattleSkybox.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\BattleSkybox.mat
+      projectPath: Assets\Scripts\GUI\BattleSkybox.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\BattleSkybox.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\BattleSkybox.mat.meta
+      projectPath: Assets\Scripts\GUI\BattleSkybox.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\ClickCharacterRaycast.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\ClickCharacterRaycast.cs
+      projectPath: Assets\Scripts\GUI\ClickCharacterRaycast.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\ClickCharacterRaycast.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\ClickCharacterRaycast.cs.meta
+      projectPath: Assets\Scripts\GUI\ClickCharacterRaycast.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\Interactable.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\Interactable.cs
+      projectPath: Assets\Scripts\GUI\Interactable.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\Interactable.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\Interactable.cs.meta
+      projectPath: Assets\Scripts\GUI\Interactable.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 621afe155678370239bfbf442ad7444fd2734e5e
+    mergeA: 
+    mergeB: 
+    authorName: Navin-Augustine
+    authorEmail: navin.augustine199@gmail.com
+    commitEmail: navin.augustine199@gmail.com
+    commitName: Navin-Augustine
+    summary: Enemy Template and Turns
+    description: I created a template for enemy stats, but it's similar to Character
+      so might delete later on. I also added the turn functionality, but it's still
+      basic all it does it give chance for different objects to move. I still need
+      to implement once a move is made to go to combat. I will move to stores once
+      combat is finished.
+    timeString: 2019-10-28T16:03:36.000-05:00
+    commitTimeString: 2019-10-28T16:03:36.000-05:00
+    changes:
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats.meta
+      projectPath: Assets\Scripts\Character Stats.meta
+      originalPath: Assets\Scripts\Cutscenes.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\BaseStat.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\BaseStat.cs
+      projectPath: Assets\Scripts\Character Stats\BaseStat.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\BaseStat.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\BaseStat.cs.meta
+      projectPath: Assets\Scripts\Character Stats\BaseStat.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterStats.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats.cs.meta
+      projectPath: Assets\Scripts\Character Stats\CharacterStats.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats2.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats2.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterStats2.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterStats2.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterStats2.cs.meta
+      projectPath: Assets\Scripts\Character Stats\CharacterStats2.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterTemplate.cs
+      projectPath: Assets\Scripts\Character Stats\CharacterTemplate.cs
+      originalPath: Assets\Scripts\CharacterTemplate.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\CharacterTemplate.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\CharacterTemplate.cs.meta
+      projectPath: Assets\Scripts\Character Stats\CharacterTemplate.cs.meta
+      originalPath: Assets\Scripts\CharacterTemplate.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\Dumm1.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\Dumm1.cs
+      projectPath: Assets\Scripts\Character Stats\Dumm1.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\Dumm1.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\Dumm1.cs.meta
+      projectPath: Assets\Scripts\Character Stats\Dumm1.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\Dumm2.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\Dumm2.cs
+      projectPath: Assets\Scripts\Character Stats\Dumm2.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\Dumm2.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\Dumm2.cs.meta
+      projectPath: Assets\Scripts\Character Stats\Dumm2.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\EnemyTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\EnemyTemplate.cs
+      projectPath: Assets\Scripts\Character Stats\EnemyTemplate.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\EnemyTemplate.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\EnemyTemplate.cs.meta
+      projectPath: Assets\Scripts\Character Stats\EnemyTemplate.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\StatBonus.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\StatBonus.cs
+      projectPath: Assets\Scripts\Character Stats\StatBonus.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Character Stats\StatBonus.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Character
+        Stats\StatBonus.cs.meta
+      projectPath: Assets\Scripts\Character Stats\StatBonus.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ItemTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\ItemTemplate.cs
+      projectPath: Assets\Scripts\ItemTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Turns.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Turns.cs
+      projectPath: Assets\Scripts\Turns.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Turns.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Turns.cs.meta
+      projectPath: Assets\Scripts\Turns.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Back_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Back_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Back_Tex.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Down_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Down_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Down_Tex.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Front_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Front_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Front_Tex.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Left_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Left_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Left_Tex.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Right_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Right_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Right_Tex.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Up_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Up_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Up_Tex.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 1e0c2fb7149c44272773194a6f39382489b35c7e
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Updated main camera movement in testbed and added better skybox
+    description: 
+    timeString: 2019-10-28T15:00:48.000-05:00
+    commitTimeString: 2019-10-28T15:00:48.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\478348.jpg.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\478348.jpg.meta
+      projectPath: Assets\Scripts\GUI\478348.jpg.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox.meta
+      projectPath: Assets\Starfield Skybox.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo.meta
+      projectPath: Assets\Starfield Skybox\Demo.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\DemoScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\DemoScene.unity
+      projectPath: Assets\Starfield Skybox\Demo\DemoScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\DemoScene.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\DemoScene.unity.meta
+      projectPath: Assets\Starfield Skybox\Demo\DemoScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Script.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Script.meta
+      projectPath: Assets\Starfield Skybox\Demo\Script.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Script\LookCamera.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Script\LookCamera.cs
+      projectPath: Assets\Starfield Skybox\Demo\Script\LookCamera.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Script\LookCamera.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Script\LookCamera.cs.meta
+      projectPath: Assets\Starfield Skybox\Demo\Script\LookCamera.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Back_Tex.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Back_Tex.png
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Back_Tex.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Back_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Back_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Back_Tex.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Down_Tex.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Down_Tex.png
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Down_Tex.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Down_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Down_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Down_Tex.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Front_Tex.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Front_Tex.png
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Front_Tex.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Front_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Front_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Front_Tex.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Left_Tex.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Left_Tex.png
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Left_Tex.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Left_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Left_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Left_Tex.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Right_Tex.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Right_Tex.png
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Right_Tex.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Right_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Right_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Right_Tex.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Up_Tex.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Up_Tex.png
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Up_Tex.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\Up_Tex.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\Up_Tex.png.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\Up_Tex.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\starBox.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\starBox.mat
+      projectPath: Assets\Starfield Skybox\Demo\Textures\starBox.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Demo\Textures\starBox.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Demo\Textures\starBox.mat.meta
+      projectPath: Assets\Starfield Skybox\Demo\Textures\starBox.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Skybox.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Skybox.mat
+      projectPath: Assets\Starfield Skybox\Skybox.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Starfield Skybox\Skybox.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Starfield
+        Skybox\Skybox.mat.meta
+      projectPath: Assets\Starfield Skybox\Skybox.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 4e96c56d9f3d6ff1936936234c677637684e81ba
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Made a Demo Skybox
+    description: It's ugly, but functional for now
+    timeString: 2019-10-21T16:49:03.000-05:00
+    commitTimeString: 2019-10-21T16:49:03.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\478348.jpg
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\478348.jpg
+      projectPath: Assets\Scripts\GUI\478348.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\478348.jpg.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\478348.jpg.meta
+      projectPath: Assets\Scripts\GUI\478348.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\New Material.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\New
+        Material.mat
+      projectPath: Assets\Scripts\GUI\New Material.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\New Material.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\New
+        Material.mat.meta
+      projectPath: Assets\Scripts\GUI\New Material.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\c747186465659b48d13c5d23ff30e3a5.jpg
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\c747186465659b48d13c5d23ff30e3a5.jpg
+      projectPath: Assets\Scripts\GUI\c747186465659b48d13c5d23ff30e3a5.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\c747186465659b48d13c5d23ff30e3a5.jpg.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\c747186465659b48d13c5d23ff30e3a5.jpg.meta
+      projectPath: Assets\Scripts\GUI\c747186465659b48d13c5d23ff30e3a5.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: d9583df7f5b13f1ff1802060697daf76e8272421
+    mergeA: eee422d839c3fad8ea5d5d71c1bc583b90643dbc
+    mergeB: 5b197bf6cc17574fd71dd2be48aa8f0a1ded06c7
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Merge branch 'master' of https://github.com/utd-game-programming/video-game-project-tacticscom-1
+    description: 
+    timeString: 2019-10-21T16:48:28.000-05:00
+    commitTimeString: 2019-10-21T16:48:28.000-05:00
+    changes: []
+  - commitID: eee422d839c3fad8ea5d5d71c1bc583b90643dbc
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Demo Versions of text with backgrounds
+    description: 
+    timeString: 2019-10-21T16:36:08.000-05:00
+    commitTimeString: 2019-10-21T16:36:08.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\2560x1440-turquoise-blue-solid-color-background.jpg
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\2560x1440-turquoise-blue-solid-color-background.jpg
+      projectPath: Assets\Scripts\GUI\2560x1440-turquoise-blue-solid-color-background.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\2560x1440-turquoise-blue-solid-color-background.jpg.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\2560x1440-turquoise-blue-solid-color-background.jpg.meta
+      projectPath: Assets\Scripts\GUI\2560x1440-turquoise-blue-solid-color-background.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 5b197bf6cc17574fd71dd2be48aa8f0a1ded06c7
+    mergeA: 
+    mergeB: 
+    authorName: JacobCorey
+    authorEmail: jacobcorey584@gmail.com
+    commitEmail: jacobcorey584@gmail.com
+    commitName: JacobCorey
+    summary: Fixed the example scene
+    description: 
+    timeString: 2019-10-21T16:28:24.000-05:00
+    commitTimeString: 2019-10-21T16:28:24.000-05:00
+    changes:
+    - path: Assets\Materials.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: Assets\Scripts\Movement.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites.meta
+      projectPath: Assets\Sprites.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\64409.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites\64409.png.meta
+      projectPath: Assets\Sprites\64409.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\EggplantPit.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites\EggplantPit.png.meta
+      projectPath: Assets\Sprites\EggplantPit.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 9135a601ae66cfb6a7d55866ad38848ded93bca0
+    mergeA: 
+    mergeB: 
+    authorName: JacobCorey
+    authorEmail: jacobcorey584@gmail.com
+    commitEmail: jacobcorey584@gmail.com
+    commitName: JacobCorey
+    summary: Player Movement scripts & Sample map to show movement
+    description: 
+    timeString: 2019-10-21T16:20:02.000-05:00
+    commitTimeString: 2019-10-21T16:20:02.000-05:00
+    changes:
+    - path: Assets\Materials\Ground1.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Ground1.mat
+      projectPath: Assets\Materials\Ground1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Ground1.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Ground1.mat.meta
+      projectPath: Assets\Materials\Ground1.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Ground2.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Ground2.mat
+      projectPath: Assets\Materials\Ground2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Ground2.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Ground2.mat.meta
+      projectPath: Assets\Materials\Ground2.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water1.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Water1.mat
+      projectPath: Assets\Materials\Water1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water1.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Water1.mat.meta
+      projectPath: Assets\Materials\Water1.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water2.mat
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Water2.mat
+      projectPath: Assets\Materials\Water2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water2.mat.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Materials\Water2.mat.meta
+      projectPath: Assets\Materials\Water2.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map1.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity
+      projectPath: Assets\Scenes\Map1.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Map1.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\Map1.unity.meta
+      projectPath: Assets\Scenes\Map1.unity.meta
+      originalPath: Assets\Scripts\Cutscenes.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Movement.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Movement.meta
+      projectPath: Assets\Scripts\Movement.meta
+      originalPath: Assets\Scripts\Camera.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMove.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\PlayerMove.cs
+      projectPath: Assets\Scripts\PlayerMove.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\PlayerMove.cs.meta
+      projectPath: Assets\Scripts\PlayerMove.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpriteTurn.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\SpriteTurn.cs
+      projectPath: Assets\Scripts\SpriteTurn.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SpriteTurn.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\SpriteTurn.cs.meta
+      projectPath: Assets\Scripts\SpriteTurn.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs
+      projectPath: Assets\Scripts\TacticsMove.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TacticsMove.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\TacticsMove.cs.meta
+      projectPath: Assets\Scripts\TacticsMove.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Tile.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Tile.cs
+      projectPath: Assets\Scripts\Tile.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Tile.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Tile.cs.meta
+      projectPath: Assets\Scripts\Tile.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\64409.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites\64409.png
+      projectPath: Assets\Sprites\64409.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\64409.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites\64409.png.meta
+      projectPath: Assets\Sprites\64409.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\EggplantPit.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites\EggplantPit.png
+      projectPath: Assets\Sprites\EggplantPit.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\EggplantPit.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Sprites\EggplantPit.png.meta
+      projectPath: Assets\Sprites\EggplantPit.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 10bcd2558e98f8156427b41bdccb9253945bc2c9
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Implemented sprite rotation and prototype camera movement
+    description: Sprites now rotate to match camera when proper scripts are attached,
+      have a basic rotation script for camera, but direction of keys flips so further
+      development is necessary
+    timeString: 2019-10-21T15:59:44.000-05:00
+    commitTimeString: 2019-10-21T15:59:44.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera.meta
+      projectPath: Assets\Scripts\Camera.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\CameraRotationAroundPoint.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\CameraRotationAroundPoint.cs
+      projectPath: Assets\Scripts\GUI\CameraRotationAroundPoint.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\CameraRotationAroundPoint.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\CameraRotationAroundPoint.cs.meta
+      projectPath: Assets\Scripts\GUI\CameraRotationAroundPoint.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\MagicMushroom.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\MagicMushroom.png
+      projectPath: Assets\Scripts\GUI\MagicMushroom.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\MagicMushroom.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\MagicMushroom.png.meta
+      projectPath: Assets\Scripts\GUI\MagicMushroom.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\SpriteRotationToCamera.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\SpriteRotationToCamera.cs
+      projectPath: Assets\Scripts\GUI\SpriteRotationToCamera.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\SpriteRotationToCamera.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\SpriteRotationToCamera.cs.meta
+      projectPath: Assets\Scripts\GUI\SpriteRotationToCamera.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\luigi.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\luigi.png
+      projectPath: Assets\Scripts\GUI\luigi.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\luigi.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\luigi.png.meta
+      projectPath: Assets\Scripts\GUI\luigi.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 0f70608d062d68ef21573f908e5e75283307772a
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: made some changes
+    description: made small changes
+    timeString: 2019-10-16T20:12:43.000-05:00
+    commitTimeString: 2019-10-16T20:12:43.000-05:00
+    changes:
+    - path: Assets\Scripts\Camera.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera.meta
+      projectPath: Assets\Scripts\Camera.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\CharacterTemplate.cs
+      projectPath: Assets\Scripts\CharacterTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\ItemTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\ItemTemplate.cs
+      projectPath: Assets\Scripts\ItemTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\LvlUp.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\LvlUp.cs
+      projectPath: Assets\Scripts\LvlUp.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 80cea38ecd3522eb1ffb8755914bb35edb15b5b2
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Made a dummy stat display
+    description: This edits the values of the display to fit the HP, MP, and EXP values
+      of the attached objects DummyStats, in conjunction with a GameManager determining
+      when a given text field should be active, should allow for dynamic display
+    timeString: 2019-10-14T15:20:31.000-05:00
+    commitTimeString: 2019-10-14T15:20:31.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\Character_UI.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\Character_UI.cs
+      projectPath: Assets\Scripts\GUI\Character_UI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\Character_UI.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\Character_UI.cs.meta
+      projectPath: Assets\Scripts\GUI\Character_UI.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\DummyCharacter.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\DummyCharacter.cs
+      projectPath: Assets\Scripts\GUI\DummyCharacter.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\DummyCharacter.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\DummyCharacter.cs.meta
+      projectPath: Assets\Scripts\GUI\DummyCharacter.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\DummyStats.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\DummyStats.cs
+      projectPath: Assets\Scripts\GUI\DummyStats.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\DummyStats.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\DummyStats.cs.meta
+      projectPath: Assets\Scripts\GUI\DummyStats.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 46552b82302ca7a4bf21bccb929c573ad37a88e4
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Added a prototype script for non-interactive UI
+    description: Script is only updatable using inspector currently, will want to
+      have it attach itself to another object for updating the display properly for
+      things like health, mp, etc.
+    timeString: 2019-10-14T14:36:12.000-05:00
+    commitTimeString: 2019-10-14T14:36:12.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs.meta
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs\HeightDisplay.prefab
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs\HeightDisplay.prefab
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs\HeightDisplay.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\GUI_Prefabs\HeightDisplay.prefab.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\GUI_Prefabs\HeightDisplay.prefab.meta
+      projectPath: Assets\Scripts\GUI\GUI_Prefabs\HeightDisplay.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\NonInteractive_UI.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\NonInteractive_UI.cs
+      projectPath: Assets\Scripts\GUI\NonInteractive_UI.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI\NonInteractive_UI.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI\NonInteractive_UI.cs.meta
+      projectPath: Assets\Scripts\GUI\NonInteractive_UI.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: d672f24445613687239e944253e395e6f51244f5
+    mergeA: 
+    mergeB: 
+    authorName: AlderMaven
+    authorEmail: bmb160230@utdallas.edu
+    commitEmail: bmb160230@utdallas.edu
+    commitName: AlderMaven
+    summary: Setup workbench for gui testing + folders
+    description: Made a scene for testing GUI features as well as folders for my responsibilites
+      on the project
+    timeString: 2019-10-06T20:56:51.000-05:00
+    commitTimeString: 2019-10-06T20:56:51.000-05:00
+    changes:
+    - path: Assets\Scenes\GuiTestScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity
+      projectPath: Assets\Scenes\GuiTestScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\GuiTestScene.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\GuiTestScene.unity.meta
+      projectPath: Assets\Scenes\GuiTestScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Camera.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Camera.meta
+      projectPath: Assets\Scripts\Camera.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Cutscenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Cutscenes.meta
+      projectPath: Assets\Scripts\Cutscenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GUI.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\GUI.meta
+      projectPath: Assets\Scripts\GUI.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 95ce1f0f34d12297365a33fee336dfa86fe5751c
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: made some classes
+    description: made some classes as place holders will continue later
+    timeString: 2019-10-05T12:55:58.000-05:00
+    commitTimeString: 2019-10-05T12:55:58.000-05:00
+    changes:
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\CharacterTemplate.cs
+      projectPath: Assets\Scripts\CharacterTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item.meta
+      projectPath: Assets\Scripts\Item.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Armor.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Armor.cs
+      projectPath: Assets\Scripts\Item\Armor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Armor.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Armor.cs.meta
+      projectPath: Assets\Scripts\Item\Armor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Consumable.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Consumable.cs
+      projectPath: Assets\Scripts\Item\Consumable.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Consumable.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Consumable.cs.meta
+      projectPath: Assets\Scripts\Item\Consumable.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Resouce.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Resouce.cs
+      projectPath: Assets\Scripts\Item\Resouce.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Resouce.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Resouce.cs.meta
+      projectPath: Assets\Scripts\Item\Resouce.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Weapon.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Weapon.cs
+      projectPath: Assets\Scripts\Item\Weapon.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Item\Weapon.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\Item\Weapon.cs.meta
+      projectPath: Assets\Scripts\Item\Weapon.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ItemTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\ItemTemplate.cs
+      projectPath: Assets\Scripts\ItemTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass.meta
+      projectPath: Assets\Scripts\JobAttClass.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\JobAttClass.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\JobAttClass.cs
+      projectPath: Assets\Scripts\JobAttClass\JobAttClass.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\JobAttClass.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\JobAttClass.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\JobAttClass.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Monk.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Monk.cs
+      projectPath: Assets\Scripts\JobAttClass\Monk.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\JobAttClass\Monk.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\JobAttClass\Monk.cs.meta
+      projectPath: Assets\Scripts\JobAttClass\Monk.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\LvlUp.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\LvlUp.cs
+      projectPath: Assets\Scripts\LvlUp.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\LvlUp.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\LvlUp.cs.meta
+      projectPath: Assets\Scripts\LvlUp.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 5492635dc461d3f15674ea10931a38112310c203
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: made the item template
+    description: made the item template, and ellaborated on characterTemplate also
+      --idea-- means it an idea i had
+    timeString: 2019-10-02T18:01:11.000-05:00
+    commitTimeString: 2019-10-02T18:01:11.000-05:00
+    changes:
+    - path: Assets\Scripts\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\CharacterTemplate.cs
+      projectPath: Assets\Scripts\CharacterTemplate.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\ItemTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\ItemTemplate.cs
+      projectPath: Assets\Scripts\ItemTemplate.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ItemTemplate.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\ItemTemplate.cs.meta
+      projectPath: Assets\Scripts\ItemTemplate.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: ce93e784018d7eedc18264fa941858196c037f9e
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: Character template
+    description: this is the base stat for all char's in game
+    timeString: 2019-10-02T16:55:59.000-05:00
+    commitTimeString: 2019-10-02T16:55:59.000-05:00
+    changes:
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CharacterTemplate.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\CharacterTemplate.cs
+      projectPath: Assets\Scripts\CharacterTemplate.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CharacterTemplate.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scripts\CharacterTemplate.cs.meta
+      projectPath: Assets\Scripts\CharacterTemplate.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b50390450273c9be568eeb863222626baa8ddc7e
+    mergeA: 
+    mergeB: 
+    authorName: Gavilan12
+    authorEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitEmail: 43182579+Gavilan12@users.noreply.github.com
+    commitName: Gavilan12
+    summary: yeah initial project
+    description: initial project - you know to add stuff
+    timeString: 2019-10-02T16:44:03.000-05:00
+    commitTimeString: 2019-10-02T16:44:03.000-05:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\Packages-Update.log
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Logs\Packages-Update.log
+      projectPath: Logs\Packages-Update.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 0f8b395c560e695a8e1c7f6f544b16f641ffefd4
+    mergeA: 
+    mergeB: 
+    authorName: mcmahant
+    authorEmail: 47238031+mcmahant@users.noreply.github.com
+    commitEmail: 47238031+mcmahant@users.noreply.github.com
+    commitName: mcmahant
+    summary: Initial commit
+    description: 
+    timeString: 2019-09-11T19:28:19.000-05:00
+    commitTimeString: 2019-09-11T19:28:19.000-05:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: C:\Users\AlderMaven\Documents\GitHub\video-game-project-tacticscom-1\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

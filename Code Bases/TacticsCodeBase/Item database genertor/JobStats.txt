@@ -1,0 +1,130 @@
+// Base stats 1-10 total stats 33
+// Move 3-5
+// Jump 1-2
+//Monk
+Strength = 4
+	//lvl up arrar[3]
+Defense = 7
+	//lvl up arrar[4]
+Magical = 4
+	//lvl up arrar[5]
+MagDefense = 7 
+	//lvl up arrar[6]
+Speed = 5
+	//lvl up arrar[7]
+Luck = 6
+	//lvl up arrar[8] 
+Move = 4 
+Jump = 2
+//Archer
+Strength = 7
+	//lvl up arrar[3]
+Defense = 3
+	//lvl up arrar[4]
+Magical = 5
+	//lvl up arrar[5]
+MagDefense = 4 
+	//lvl up arrar[6]
+Speed = 7
+	//lvl up arrar[7]
+Luck = 7
+	//lvl up arrar[8] 
+Move = 4 
+Jump = 2
+//Bard
+Strength = 3
+	//lvl up arrar[3]
+Defense = 5
+	//lvl up arrar[4]
+Magical = 5
+	//lvl up arrar[5]
+MagDefense = 7
+	//lvl up arrar[6]
+Speed = 6
+	//lvl up arrar[7]
+Luck = 7
+	//lvl up arrar[8] 
+Move = 4 
+Jump = 2
+//Fighter
+Strength = 8
+	//lvl up arrar[3]
+Defense = 7
+	//lvl up arrar[4]
+Magical = 4
+	//lvl up arrar[5]
+MagDefense = 4
+	//lvl up arrar[6]
+Speed = 5
+	//lvl up arrar[7]
+Luck = 5
+	//lvl up arrar[8] 
+Move = 4 
+Jump = 1
+//Fighter
+Strength = 7
+	//lvl up arrar[3]
+Defense = 5
+	//lvl up arrar[4]
+Magical = 4
+	//lvl up arrar[5]
+MagDefense = 5
+	//lvl up arrar[6]
+Speed = 6
+	//lvl up arrar[7]
+Luck = 6
+	//lvl up arrar[8] 
+Move = 3 
+Jump = 2
+//Priest
+Strength =3
+	//lvl up arrar[3]
+Defense = 4
+	//lvl up arrar[4]
+Magical = 7
+	//lvl up arrar[5]
+MagDefense = 8
+	//lvl up arrar[6]
+Speed = 5
+	//lvl up arrar[7]
+Luck = 6
+	//lvl up arrar[8] 
+Move = 3 
+Jump = 1
+//Priest
+Strength = 6
+	//lvl up arrar[3]
+Defense = 4
+	//lvl up arrar[4]
+Magical = 4
+	//lvl up arrar[5]
+MagDefense = 4
+	//lvl up arrar[6]
+Speed = 8
+	//lvl up arrar[7]
+Luck = 7
+	//lvl up arrar[8] 
+Move = 4 
+Jump = 1
+//Wizard
+Strength = 3
+	//lvl up arrar[3]
+Defense = 4
+	//lvl up arrar[4]
+Magical = 8
+	//lvl up arrar[5]
+MagDefense = 8
+	//lvl up arrar[6]
+Speed = 4
+	//lvl up arrar[7]
+Luck = 6
+	//lvl up arrar[8] 
+Move = 4 
+Jump = 1
+
+
+
+
+
+
+

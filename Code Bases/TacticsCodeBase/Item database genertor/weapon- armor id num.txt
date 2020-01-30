@@ -1,0 +1,24 @@
+number	type - weapon	material	enchantment
+0	null		null		null
+1	dagger		Bronze		fire
+2	sword		Iron		ice
+3	axe		Steel		lightning
+4	spear		Orichalcum	armor piercer		
+5	shield		Quicksilver	monster slayer
+6	longsword	Darksteel	holy smite
+7	Bow		Adamantite
+8	Gun
+number	type - armour	material	enchantment
+0	null		null		null
+1	head - light	Bronze		absorb fire		
+2	head - medium	Iron		absorb ice
+3	head - heavy	Steel		absorb lightning
+4	chest - light	Orichalcum	mana regen
+5	chest - medium	Quicksilver	health regen
+6	chest - heavy	Darksteel		
+7	arms - light	Adamantite	
+8	arms - medium						
+9	arms - heavy				
+10	legs - light				
+11	legs - medium				
+12	legs - heavy				
